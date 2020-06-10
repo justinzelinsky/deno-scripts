@@ -1,3 +1,14 @@
+/*
+ * cra -- Create React App
+ *
+ * This is my variation on the popular CRA which just creates a clone of my prefered development environment
+ * for when I am building a new React application.
+ *
+ * Usage:
+ *
+ * `cra <projectName>`
+ */
+
 const REPO_NAME = 'git@github.com:justinzelinsky/react-starter.git';
 
 const [projectName] = Deno.args;
